@@ -8,12 +8,6 @@ variable "location" {
   default     = ""
 }
 
-variable "default_tags" {
-  description = ""
-  type        = "map"
-  default     = {}
-}
-
 variable "address_space" {
   description = ""
   default     = ""
